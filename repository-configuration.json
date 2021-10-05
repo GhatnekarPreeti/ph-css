@@ -1,0 +1,62 @@
+{
+    "gammaAccess": {
+     "url": "http://192.168.2.38:3001/",
+      "token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYyODA2NTAxOTcyMSwiaWF0IjoxNjI4MDY1MDE5fQ.RehuKmSsWu7BaRvNgKGBMreOsy4d1GHXju53ujAr5QQLqqOOG48_sf7l4L_9aHcq40_hSWSiMR2coR4kXTJutQ"},
+    "repositories": [
+        {
+            "dataDir": "$WORKSPACE/temp",
+            "repository": {
+                "uid": "fe2cbc53a90dd81e0b528af13a995f6b",
+                "projectName": "phcss",
+                "languages": [
+                    "CSS"
+                ],
+                "sources": {
+                    "baseDir": "$WORKSPACE",
+                    "exclusions": []
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ],
+                "codeissues": [
+                    {
+                        "name": "gamma_generic",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "stylelint",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
